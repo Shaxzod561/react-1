@@ -1,0 +1,146 @@
+.section{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.containerr{
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 15px;
+}
+.section_box1{
+    margin-top: 60px;
+}
+.section_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.section_item{
+    
+  position: relative;
+  display: inline-block;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 450px;
+    height: 350px;
+  background: #0b2c647e;
+  padding: 15px;
+}
+.section_item::after{
+    content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(50deg, #0e1001a4, #fa4903);
+  transition: width 0.8s ease;
+  border-radius: 2px;
+}
+.section_item:hover::after {
+  width: 100%;
+}
+.section_img1{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 8px;
+  background: #0b2c6400;
+}
+.section_title1{
+    color: #ffffffdb;
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 18px;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: center;
+  background: #08317700;
+  width: 230px;
+  text-align: center;
+}
+.section_text{
+    font-family: Open Sans;
+font-weight: 600;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+color: #ffffff8f;
+  background: #0b2c6400;
+}
+.section_item:hover{
+    scale: 1.1;
+}
+
+
+.section_box2{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 150px;
+    align-items: center;
+}
+.section_span{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+.section_title2{
+    color: #FFF;
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 130%;
+letter-spacing: 0%;
+width: 550px;
+}
+.section_text1{
+    color: #ffffff95;
+    font-family: Open Sans;
+font-weight: 600;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.section_img2{
+    width: 580px;
+}
+
+
+@media (max-width: 1000px) {
+   
+
+    .section_list{
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .section_box2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section_span{
+        text-align: center;
+    }
+    .section_img2{
+        margin-top: 25px;
+        width: auto;
+    }
+}
