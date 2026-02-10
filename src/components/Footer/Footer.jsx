@@ -13,6 +13,7 @@ import Fo10 from "./images/fo10.png"
 import Fo11 from "./images/fo11.png"
 const Footer = () => {
   return (
+    
     <div className='footer'>
       <div className='container'>
         <div className='footer_container'>

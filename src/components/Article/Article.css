@@ -1,5 +1,7 @@
 .article{
     margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
 }
 .article_box1{
     display: flex;

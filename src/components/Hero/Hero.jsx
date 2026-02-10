@@ -7,6 +7,7 @@ import Her4 from "./images/her4.png"
 import Her5 from "./images/her5.png"
 import Her6 from "./images/her6.png"
 const Hero = () => {
+  
   return (
     <div className='hero'>
       <div className='container'>

@@ -5,6 +5,7 @@ import Article from './components/Article/Article';
 import Section from './components/Section/Section';
 import Footer from './components/Footer/Footer';
 import "./App.css"
+import "./index.css"
 const App = () => {
   return (
     <>
